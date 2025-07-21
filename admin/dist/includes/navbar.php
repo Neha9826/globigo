@@ -32,7 +32,7 @@ $imagePath = !empty($_SESSION['user_image'])
       <li class="nav-item dropdown user-menu">
         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
           <img
-            src="../uploads/users/<?php echo $_SESSION['user_image']; ?>"
+            src="/globigo/admin/dist/uploads/users/<?php echo $_SESSION['user_image']; ?>"
             class="user-image rounded-circle shadow"
             alt="User Image"
           />
@@ -43,7 +43,7 @@ $imagePath = !empty($_SESSION['user_image'])
         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
           <li class="user-header text-bg-primary">
             <img
-              src="../uploads/users/<?php echo $_SESSION['user_image']; ?>"
+              src="/globigo/admin/dist/uploads/users/<?php echo $_SESSION['user_image']; ?>"
               class="rounded-circle shadow"
               alt="User Image"
             />

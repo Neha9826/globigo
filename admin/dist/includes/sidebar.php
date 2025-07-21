@@ -9,8 +9,8 @@
           <a href="./index.php" class="brand-link">
             <!--begin::Brand Image-->
             <img
-              src="./assets/img/AdminLTELogo.png"
-              alt="AdminLTE Logo"
+              src="./assets/img/CMT_logo.jpg"
+              alt="Globigo Logo"
               class="brand-image opacity-75 shadow"
             />
             <!--end::Brand Image-->
@@ -40,7 +40,7 @@
                   </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link active">
+                <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-speedometer"></i>
                   <p>
                     Users
@@ -49,7 +49,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="createUser.php" class="nav-link active">
+                    <a href="createUser.php" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Create User</p>
                     </a>
@@ -65,33 +65,40 @@
               
               <li class="nav-item">
                 <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-box-seam-fill"></i>
+                  <i class="nav-icon bi bi-geo-alt-fill"></i>
                   <p>
-                    Widgets
+                    Locations
                     <i class="nav-arrow bi bi-chevron-right"></i>
                   </p>
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="./widgets/small-box.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Small Box</p>
+                    <a href="addCountry.php" class="nav-link">
+                      <i class="bi bi-circle nav-icon"></i>
+                      <p>Country</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./widgets/info-box.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>info Box</p>
+                    <a href="addZone.php" class="nav-link">
+                      <i class="bi bi-circle nav-icon"></i>
+                      <p>Zone</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="./widgets/cards.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Cards</p>
+                    <a href="addState.php" class="nav-link">
+                      <i class="bi bi-circle nav-icon"></i>
+                      <p>State</p>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="addPlace.php" class="nav-link">
+                      <i class="bi bi-circle nav-icon"></i>
+                      <p>Place</p>
                     </a>
                   </li>
                 </ul>
               </li>
+
               <li class="nav-item">
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-clipboard-fill"></i>
